@@ -23,11 +23,7 @@ public class Vector implements ILocation{
         this.x = x;
         this.y = y;
     }
-    
-    public Point translate(float x, float y){
-        return new Point(x, y);
-    }
-    
+
     @Override
     public void setX(float x) {
         this.x = x;
